@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DD2D80229BD3E81008A00BF /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD2D80129BD3E81008A00BF /* ReminderViewController+Section.swift */; };
 		AA8E929728EE0E750027AD15 /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E929628EE0E750027AD15 /* ReminderDoneButton.swift */; };
 		AA8E929928EE12880027AD15 /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E929828EE12880027AD15 /* ReminderListViewController+Actions.swift */; };
 		AA8E929B28EE20CB0027AD15 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E929A28EE20CB0027AD15 /* ReminderViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6DD2D80129BD3E81008A00BF /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 		AA8E929628EE0E750027AD15 /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
 		AA8E929828EE12880027AD15 /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
 		AA8E929A28EE20CB0027AD15 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				AA8E929A28EE20CB0027AD15 /* ReminderViewController.swift */,
 				AA8E929D28EE21B60027AD15 /* ReminderViewController+Row.swift */,
+				6DD2D80129BD3E81008A00BF /* ReminderViewController+Section.swift */,
 			);
 			path = DetailViewController;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD2D80229BD3E81008A00BF /* ReminderViewController+Section.swift in Sources */,
 				AAD0598C28EC8D10004F4962 /* ReminderListViewController.swift in Sources */,
 				AA8E929928EE12880027AD15 /* ReminderListViewController+Actions.swift in Sources */,
 				AA8E929B28EE20CB0027AD15 /* ReminderViewController.swift in Sources */,
